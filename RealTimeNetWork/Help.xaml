@@ -1,0 +1,14 @@
+﻿<Window x:Class="RealTimeNetWork.Help"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RealTimeNetWork"
+        mc:Ignorable="d"
+        Title="Help" Height="170" Width="289.6" WindowStyle="None" AllowsTransparency="True" MouseMove="Window_MouseMove" WindowStartupLocation="CenterScreen">
+    <Grid Background="#FF155B85">
+        <Label Content="Written By Fungus-Light&#xD;&#xA;&#xD;&#xA;GitHub:&#xD;&#xA;https://github.com/Fungus-Light&#xD;&#xA;" HorizontalAlignment="Left" Height="98" Margin="10,10,0,0" VerticalAlignment="Top" Width="263" Foreground="#FFFFF124"/>
+        <Button Content="Follow Me" HorizontalAlignment="Left" Height="33" Margin="97,113,0,0" VerticalAlignment="Top" Width="82" Background="Black" Foreground="#FFFFEE00" Click="Button_Click"/>
+
+    </Grid>
+</Window>
